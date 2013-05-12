@@ -1,0 +1,9 @@
+{
+	"name": "buzz.js",
+	"description": "The fantastic Buzz javascript sound library repackaged for Meteor",
+	"homepage": "https://github.com/brentjanderson/meteor-buzz",
+	"author": "Brent Anderson  (http://brentjanderson.com)",
+	"version": "0.1.0",
+	"git": "https://github.com/brentjanderson/meteor-buzz.git",
+	"packages": {}
+}
