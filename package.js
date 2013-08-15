@@ -3,6 +3,10 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
+	
+	if (api.export) // ensure backwards compatibility with Meteor pre-0.6.5
+    		api.export('BUZZ');
+
 	api.add_files([
 		'lib/buzz/buzz.js'
 		], 'client');
