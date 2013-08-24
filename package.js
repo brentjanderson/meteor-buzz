@@ -8,6 +8,6 @@ Package.on_use(function (api) {
     		api.export('BUZZ');
 
 	api.add_files([
-		'lib/buzz/buzz.js'
+		'lib/buzz/dist/buzz.js'
 		], 'client');
 });
