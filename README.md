@@ -2,23 +2,23 @@
 Smart package that wraps [Buzz.js](http://buzz.jaysalvat.com) for MeteorJS use.
 
 ## Usage
-Using [Meteorite](https://github.com/oortcloud/meteorite)…
+Using Meteor 1.0
 
-	mrt add buzz.js
+	meteor add brentjanderson:buzz
 	
 Voila! It's available for your projects.
 
 ## Example
 The following shows a very simple sample app that uses a sound effect from the buzz library's documentation:
 
-    mrt create test
+    meteor create test
     cd test
     mkdir -p public/sounds/
-    mrt add buzz.js
+    meteor add brentjanderson:buzz
     cd public/sounds
     wget http://buzz.jaysalvat.com/demo/sounds/truck.ogg
     cd -
-    mrt
+    meteor
 
 Browse to `http://localhost:3000/` and open up the web inspector to type the following:
 
