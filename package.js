@@ -1,6 +1,6 @@
 Package.describe({
 	summary: "The fantastic Buzz javascript sound library repackaged for Meteor",
-  version: "1.1.9",
+  version: "1.1.10",
   git: "https://github.com/brentjanderson/meteor-buzz.git"
 });
 
